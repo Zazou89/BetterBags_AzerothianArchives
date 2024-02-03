@@ -1,0 +1,9 @@
+## Interface: 100205
+## Title: BetterBags - Azerothian Archives
+## Author: Zazou
+## Version: 1.0.0
+## Notes: Category for all the Azerothian Archives items
+## X-Curse-Project-ID: x
+## IconTexture: Interface\Icons\inv_7_0raid_trinket_05a
+
+main.lua
