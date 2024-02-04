@@ -38,6 +38,7 @@ local Containers = {
     213192, --Scratched-Out List of Names
     212762, --Tarnished Horn Signet
     212769, --Tattered Wanted Poster
+    213429, --Meticulous Archivist's Appendix
 }
 --Big Dig Tomes
 local BigDigTomes = {
