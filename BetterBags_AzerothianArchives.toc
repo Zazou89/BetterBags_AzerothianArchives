@@ -3,6 +3,7 @@
 ## Author: Zazou
 ## Version: 1.0.0
 ## Notes: Category for all the Azerothian Archives items
+## Dependencies: BetterBags
 ## X-Curse-Project-ID: 970336
 ## IconTexture: Interface\Icons\inv_7_0raid_trinket_05a
 
