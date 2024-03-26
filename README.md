@@ -1,6 +1,10 @@
 # BetterBags - Azerothian Archives
 
-This addon must be used with [BetterBags](https://www.curseforge.com/wow/addons/better-bags). It creates a new category for all Azerothian Archives items.
+This addon must be used with [BetterBags](https://www.curseforge.com/wow/addons/better-bags). It creates a new category for all Azerothian Archives items, including : 
+
+- Mysterious Fragments Containers
+- Big Dig Tomes
+- Miscellaneous
 
 # Display the Azerothian Archives Section
 
