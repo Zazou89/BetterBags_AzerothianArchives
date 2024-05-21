@@ -4,8 +4,35 @@ local addon = LibStub('AceAddon-3.0'):GetAddon("BetterBags")
 ---@class Categories: AceModule
 local categories = addon:GetModule('Categories')
 
----@class Localization: AceModule
-local L = addon:GetModule('Localization')
+-- Localization table
+local locales = {
+    ["enUS"] = {
+        ["Azerothian Archives"] = "Azerothian Archives",
+    },
+    ["frFR"] = {
+        ["Azerothian Archives"] = "Archives d’Azeroth",
+    },
+    ["deDE"] = {
+        ["Azerothian Archives"] = "Archive von Azeroth",
+    },
+    ["esES"] = {
+        ["Azerothian Archives"] = "Archivo de Azeroth",
+    },
+    ["itIT"] = {
+        ["Azerothian Archives"] = "Archivi Azerothiani",
+    },
+    ["ptBR"] = {
+        ["Azerothian Archives"] = "Arquivo Azerothiano",
+    }
+}
+
+-- Detects current language
+local currentLocale = GetLocale()
+
+-- Function to get the translation
+local function L(key)
+    return locales[currentLocale] and locales[currentLocale][key] or locales["enUS"][key]
+end
 
 --Mysterious Fragments Containers
 local Containers = {
@@ -63,8 +90,15 @@ local allItems = {
     BigDigTomes
 }
 
+--Delete category before adding translations
+categories:DeleteCategory("Azerothian Archives") 
+
+--Wipe category too ensure the item list is up to date
+categories:WipeCategory(L("Azerothian Archives"))
+
+--Loop
 for _, itemList in pairs(allItems) do
     for _, ItemID in pairs(itemList) do
-        categories:AddItemToCategory(ItemID, "Azerothian Archives")
+        categories:AddItemToCategory(ItemID, L("Azerothian Archives"))
     end
 end
