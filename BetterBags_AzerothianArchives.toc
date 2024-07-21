@@ -1,7 +1,7 @@
 ## Interface: 100207, 110000, 110002
 ## Title: BetterBags - Azerothian Archives
 ## Author: Zazou
-## Version: 1.0.5
+## Version: @project-version@
 ## Notes: Category for all the Azerothian Archives items
 ## Dependencies: BetterBags
 ## X-Curse-Project-ID: 970336
