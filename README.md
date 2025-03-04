@@ -5,6 +5,9 @@ This addon must be used with [BetterBags](https://www.curseforge.com/wow/addons/
 - Big Dig Tomes
 - Miscellaneous
 
+# Hello, Bonjour, Hola
+The addon is available in English, French, German, Spanish, Italian and Portuguese (Brazil).
+
 # Discover all my addons
 I've created a few addons for BetterBags: 
 - [BetterBags - World Events](https://www.curseforge.com/wow/addons/betterbags-world-events): categorizes all World Events like Darkmoon Faire, Hallow's End, Winter Veil, etc.
